@@ -1,7 +1,6 @@
 public class FizzBuzz {
 
     public String convert(int number) {
-
         if (isFifteenTimes(number)) {
             return "FizzBuzz";
         } else if (isThreeTimes(number)) {

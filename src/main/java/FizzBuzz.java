@@ -1,8 +1,6 @@
 public class FizzBuzz {
 
-    // TODO 2.リファクタリング 変数名
-    // TODO 3.リファクタリング メソッド名 (option)
-    public String say(int hoga) {
+    public String convert(int number) {
         return String.valueOf(2);
     }
 }

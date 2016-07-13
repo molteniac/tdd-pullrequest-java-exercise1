@@ -32,4 +32,20 @@ public class FizzBuzzTest {
         }
 
     }
+    
+    public static class _3の倍数の場合 {
+        FizzBuzz fizzbuss;
+
+        @Before
+        public void setUp() {
+            fizzbuss = new FizzBuzz();
+        }
+
+        @Test
+        public void fizzを返すこと() {
+            assertEquals("fizz", fizzbuss.convert(3));
+        }
+
+    }
+
 }

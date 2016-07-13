@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 @RunWith(Enclosed.class)
 public class FizzBuzzTest {
 
-    // TODO 6. 3と5の倍数場は合FizzBuzzを返すこと
     // TODO 7. 1から100の数列をfizzbuzz配列に変換すること
 
     public static abstract class FizzBuzzSetup {
@@ -44,6 +43,14 @@ public class FizzBuzzTest {
         public void buzzを返すこと() {
             assertEquals("buzz", fizzbuss.convert(5));
             assertEquals("buzz", fizzbuss.convert(10));
+        }
+    }
+
+    public static class _15の倍数の場合 extends FizzBuzzSetup {
+        @Test
+        public void FizzBuzzを返すこと() {
+            assertEquals("FizzBuzz", fizzbuss.convert(15));
+            assertEquals("FizzBuzz", fizzbuss.convert(30));
         }
     }
 
